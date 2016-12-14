@@ -1,0 +1,25 @@
+{
+  "name": "fs-elements",
+  "homepage": "https://github.com/fs-webcomponents/fs-elements",
+  "authors": [
+    "Justin <justincyork@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "element-collection"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs-client": "fs-webcomponents/fs-client",
+    "fs-behavior": "fs-webcomponents/fs-behavior",
+    "fs-signin": "fs-webcomponents/fs-signin",
+    "fs-person-behavior": "fs-webcomponents/fs-person-behavior",
+    "fs-person-chip": "fs-webcomponents/fs-person-chip",
+    "fs-person-facts": "fs-webcomponents/fs-person-facts",
+    "fs-person-families": "fs-webcomponents/fs-person-families",
+    "fs-person-portrait": "fs-webcomponents/fs-person-portrait",
+    "fs-person-sources": "fs-webcomponents/fs-person-sources",
+    "fs-person-summary": "fs-webcomponents/fs-person-summary"
+  }
+}
