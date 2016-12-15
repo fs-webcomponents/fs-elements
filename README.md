@@ -1,2 +1,3 @@
 # fs-elements
-Collection of FamilySearch elements published on beta.webcomponents.org
+
+Collection of FamilySearch Polymer elements.
