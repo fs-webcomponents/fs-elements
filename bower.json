@@ -20,6 +20,7 @@
     "fs-person-families": "fs-webcomponents/fs-person-families",
     "fs-person-portrait": "fs-webcomponents/fs-person-portrait",
     "fs-person-sources": "fs-webcomponents/fs-person-sources",
-    "fs-person-summary": "fs-webcomponents/fs-person-summary"
+    "fs-person-summary": "fs-webcomponents/fs-person-summary",
+    "fs-pedigree": "fs-webcomponents/fs-pedigree"
   }
 }
