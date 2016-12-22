@@ -12,7 +12,7 @@ components in action.
 ## Demos
 
 The demos don't work well on the webcomponents.org catalog because the redirect
-URI for OAuth is difficult to handle. Thus each elements links to a version of 
+URI for OAuth is difficult to handle. Thus each element links to a version of 
 their demo hosted on GitHub pages.
 
 ## Usage
@@ -20,7 +20,7 @@ their demo hosted on GitHub pages.
 _It is expected that you already know how to use Polymer. If not, please review
 their tutorials._
 
-First configure the SDK client with and `<fs-client>` element.
+First configure the SDK client with an `<fs-client>` element.
 
 ```html
 <fs-client app-key="MY-APP-KEY" redirect-uri="/my/redirect/path"></fs-client>
@@ -49,23 +49,7 @@ displaying of data.
 ## Current Status
 
 The web components are in a beta state. The concept has been proven and the
-architecture is sound but they need a bit a polishing. Components inconsistently
-use Material Design styles via Polymer [paper elements](https://beta.webcomponents.org/collection/PolymerElements/paper-elements).
-Ideally the components would have their own style that resembles FamilySearch.
-
-The components also don't do a good job of making their styles customizable. For
-example, `<fs-signin>` allows the styling to be modified for sign in vs sign out
-states but doesn't yet allow the hover states to be customized.
-
-Error handling is not done at all beyond basic `console.error()` logging.
-
-Some day in the future we envision having components packaged into single bundles
-like widgets that can be easily dropped into a web page (right now there's quite
-a bit of overhead for getting into the Polymer ecosystem). For example, sites
-that link their records of profiles to FamilySearch persons could drop in a
-`<fs-person-summary>` bundle and display a summary of the linked person from
-FamilySearch without having to install bower and include Polymer and polyfills.
-But the value of that is significantly decreased by the FamilySearch API not
-allowing unauthenticated read access. In other words, at the moment users would
-have to authenticate via OAuth 2 with FamilySearch before they'd see any data
-in those widgets. That's not a good user experience.
+architecture is sound but they need a bit a polishing. [Styles](https://github.com/fs-webcomponents/fs-elements/issues/1)
+need to be standardized and an [error handling](https://github.com/fs-webcomponents/fs-elements/issues/2)
+strategy needs to developed. Those two and other outstanding issues are listed 
+in the [fs-elements issue tracker](https://github.com/fs-webcomponents/fs-elements/issues).
