@@ -9,6 +9,14 @@ to display data from the FamilySearch Family Tree.
 Try out the [sample app](https://fs-wc-sample-app.herokuapp.com/) to see the
 components in action.
 
+## Current Status
+
+The web components are in a beta state. The concept has been proven and the
+architecture is sound but they need a bit a polishing. [Styles](https://github.com/fs-webcomponents/fs-elements/issues/1)
+need to be standardized and an [error handling](https://github.com/fs-webcomponents/fs-elements/issues/2)
+strategy needs to developed. Those two and other outstanding issues are listed 
+in the [fs-elements issue tracker](https://github.com/fs-webcomponents/fs-elements/issues).
+
 ## Demos
 
 The demos don't work well on the webcomponents.org catalog because the redirect
@@ -45,11 +53,3 @@ own element that uses `<fs-client>` to get data from the FamilySearch API.
 a little more complex but is used by most other components that display people.
 `<fs-pedigree>` and `<fs-person-families>` are complex in their processing and
 displaying of data.
-
-## Current Status
-
-The web components are in a beta state. The concept has been proven and the
-architecture is sound but they need a bit a polishing. [Styles](https://github.com/fs-webcomponents/fs-elements/issues/1)
-need to be standardized and an [error handling](https://github.com/fs-webcomponents/fs-elements/issues/2)
-strategy needs to developed. Those two and other outstanding issues are listed 
-in the [fs-elements issue tracker](https://github.com/fs-webcomponents/fs-elements/issues).
