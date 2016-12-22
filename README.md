@@ -9,6 +9,10 @@ to display data from the FamilySearch Family Tree.
 Try out the [sample app](https://fs-wc-sample-app.herokuapp.com/) to see the
 components in action.
 
+## Goals
+
+Make it easy for developers to add FamilySearch functionality to their websites.
+
 ## Current Status
 
 The web components are in a beta state. The concept has been proven and the
