@@ -28,14 +28,26 @@ their demo hosted on GitHub pages.
 _It is expected that you already know how to use Polymer. If not, please review
 their tutorials._
 
-First you need to configure the SDK client with an `<fs-client>` element.
+First you need to configure the SDK client with an `<fs-client>` element. Without
+it the components can't load any data from the API.
 
 ```html
 <fs-client app-key="MY-APP-KEY" redirect-uri="/my/redirect/path" environment="production"></fs-client>
 ```
 
+Then add a component that display some data.
+
+```html
+<fs-person-summary person-id="PPPP-PPP"></fs-person>
+```
+
 We recommend adding a `<fs-signin>` button to the page too so that the user can
-login.
+login. The components will automatically update their state after the user signs
+in. In this case `<fs-person-summary>` will automatically load the person and
+display the profile summary after the user signs in. It will also automatically
+clear the data when the user signs out.
+
+View the source code for the component demos to see how easy it is to use them.
 
 ## Creating Your Own Element
 
