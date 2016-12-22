@@ -9,28 +9,11 @@ to display data from the FamilySearch Family Tree.
 Try out the [sample app](https://fs-wc-sample-app.herokuapp.com/) to see the
 components in action.
 
-## Elements
+## Demos
 
-* [fs-client](https://github.com/fs-webcomponents/fs-client) - Configure and manage access to the JS SDK client.
-* [fs-behavior](https://github.com/fs-webcomponents/fs-behavior) - A behavior that makes it easy for elements to access the client.
-* [fs-person-behavior](https://github.com/fs-webcomponents/fs-person-behavior) - A behavior that makes it easy for elements to request person data.
-* [fs-signin](https://github.com/fs-webcomponents/fs-signin) - Manage authentication state with a Sign In / Sign Out button.
-* [fs-person-portrait](https://github.com/fs-webcomponents/fs-person-portrait) - Display a person's portrait.
-* [fs-person-chip](https://github.com/fs-webcomponents/fs-person-chip) - Display a person's portrait, name, lifespan, and ID.
-* [fs-person-facts](https://github.com/fs-webcomponents/fs-person-facts) - List a person's facts.
-* [fs-person-families](https://github.com/fs-webcomponents/fs-person-families) - List a person's families.
-* [fs-person-sources](https://github.com/fs-webcomponents/fs-person-sources) - List a person's sources.
-* [fs-person-summary](https://github.com/fs-webcomponents/fs-person-summary) - Show the summary of a person.
-* [fs-pedigree](https://github.com/fs-webcomponents/fs-pedigree) - Show a person's pedigree.
-
-## Docs
-
-The element docs are published to individual gh-pages branches for each element.
-
-The element docs are also published on the new [webcomponents.org](https://beta.webcomponents.org/) 
-catalog. There we've published a [collection](https://beta.webcomponents.org/collection/fs-webcomponents/fs-elements)
-of the FamilySearch elements. However the demos likely won't work because of
-technical issues involving redirect URIs for OAuth.
+The demos don't work well on the webcomponents.org catalog because the redirect
+URI for OAuth is difficult to handle. Thus each elements links to a version of 
+their demo hosted on GitHub pages.
 
 ## Usage
 
@@ -63,9 +46,26 @@ a little more complex but is used by most other components that display people.
 `<fs-pedigree>` and `<fs-person-families>` are complex in their processing and
 displaying of data.
 
-## Status
+## Current Status
 
 The web components are in a beta state. The concept has been proven and the
-architecture is sound but they need a bit a polishing. Styles are not consistent
-and it wasn't until recently that we decided to stick with Material Design via
-Polymer [paper elements](https://beta.webcomponents.org/collection/PolymerElements/paper-elements).
+architecture is sound but they need a bit a polishing. Components inconsistently
+use Material Design styles via Polymer [paper elements](https://beta.webcomponents.org/collection/PolymerElements/paper-elements).
+Ideally the components would have their own style that resembles FamilySearch.
+
+The components also don't do a good job of making their styles customizable. For
+example, `<fs-signin>` allows the styling to be modified for sign in vs sign out
+states but doesn't yet allow the hover states to be customized.
+
+Error handling is not done at all beyond basic `console.error()` logging.
+
+Some day in the future we envision having components packaged into single bundles
+like widgets that can be easily dropped into a web page (right now there's quite
+a bit of overhead for getting into the Polymer ecosystem). For example, sites
+that link their records of profiles to FamilySearch persons could drop in a
+`<fs-person-summary>` bundle and display a summary of the linked person from
+FamilySearch without having to install bower and include Polymer and polyfills.
+But the value of that is significantly decreased by the FamilySearch API not
+allowing unauthenticated read access. In other words, at the moment users would
+have to authenticate via OAuth 2 with FamilySearch before they'd see any data
+in those widgets. That's not a good user experience.
