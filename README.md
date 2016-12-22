@@ -32,10 +32,10 @@ their demo hosted on GitHub pages.
 _It is expected that you already know how to use Polymer. If not, please review
 their tutorials._
 
-First configure the SDK client with an `<fs-client>` element.
+First you need to configure the SDK client with an `<fs-client>` element.
 
 ```html
-<fs-client app-key="MY-APP-KEY" redirect-uri="/my/redirect/path"></fs-client>
+<fs-client app-key="MY-APP-KEY" redirect-uri="/my/redirect/path" environment="production"></fs-client>
 ```
 
 We recommend adding a `<fs-signin>` button to the page too so that the user can
@@ -44,7 +44,7 @@ login.
 ## Creating Your Own Element
 
 `<fs-client>` is the foundation of FamilySearch web components because it manages
-access to the SDK. Without your element can't request data from the API.
+access to the SDK. Without it your element can't request data from the API.
 
 We recommend setting the `debounceDuplicates` property to true on `<fs-client>`.
 This allows multiple elements to request data from the same resource while only
