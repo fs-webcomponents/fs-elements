@@ -14,6 +14,7 @@
     "fs-client": "fs-webcomponents/fs-client",
     "fs-behavior": "fs-webcomponents/fs-behavior",
     "fs-signin": "fs-webcomponents/fs-signin",
+    "fs-contributor": "fs-webcomponents/fs-contributor",
     "fs-person-behavior": "fs-webcomponents/fs-person-behavior",
     "fs-person-chip": "fs-webcomponents/fs-person-chip",
     "fs-person-facts": "fs-webcomponents/fs-person-facts",
