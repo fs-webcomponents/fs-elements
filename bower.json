@@ -20,6 +20,7 @@
     "fs-person-portrait": "fs-webcomponents/fs-person-portrait",
     "fs-person-sources": "fs-webcomponents/fs-person-sources",
     "fs-person-summary": "fs-webcomponents/fs-person-summary",
+    "fs-person-vitals": "fs-webcomponents/fs-person-vitals",
     "fs-pedigree": "fs-webcomponents/fs-pedigree",
     "fs-person-card": "fs-webcomponents/fs-person-card",
     "fs-fact": "fs-webcomponents/fs-fact",
