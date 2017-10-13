@@ -21,6 +21,10 @@
     "fs-person-sources": "fs-webcomponents/fs-person-sources",
     "fs-person-summary": "fs-webcomponents/fs-person-summary",
     "fs-pedigree": "fs-webcomponents/fs-pedigree",
-    "fs-person-card": "fs-webcomponents/fs-person-card"
+    "fs-person-card": "fs-webcomponents/fs-person-card",
+    "fs-fact": "fs-webcomponents/fs-fact",
+    "fs-date": "fs-webcomponents/fs-date",
+    "fs-place": "fs-webcomponents/fs-place",
+    "fs-attribution": "fs-webcomponents/fs-attribution"
   }
 }
