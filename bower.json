@@ -26,6 +26,7 @@
     "fs-fact": "fs-webcomponents/fs-fact",
     "fs-date": "fs-webcomponents/fs-date",
     "fs-place": "fs-webcomponents/fs-place",
-    "fs-attribution": "fs-webcomponents/fs-attribution"
+    "fs-attribution": "fs-webcomponents/fs-attribution",
+    "fs-person-name": "fs-webcomponents/fs-person-name"
   }
 }
