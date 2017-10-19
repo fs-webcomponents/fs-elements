@@ -1,6 +1,6 @@
 # FamilySearch Web Components
 
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://beta.webcomponents.org/collection/fs-webcomponents/fs-elements)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/collection/fs-webcomponents/fs-elements)
 
 FamilySearch web components is a library of [Polymer](https://www.polymer-project.org/1.0/)
 elements that use the [FamilySearch API](https://familysearch.org/developers/)
