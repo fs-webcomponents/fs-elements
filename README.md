@@ -61,7 +61,7 @@ having one HTTP request sent to the API by the SDK.
 Review the code for one of the existing elements to see how you might write your
 own element that uses `<fs-client>` to get data from the FamilySearch API.
 `<fs-person-chip>` is a good example of a simple component that relies on 
-`FSPersonBehavior` to do most of it's heavy lifting. `<fs-person-portrait>` is
+`<fs-person-mixin>` to do most of it's heavy lifting. `<fs-person-portrait>` is
 a little more complex but is used by most other components that display people.
-`<fs-pedigree>` and `<fs-person-families>` are complex in their processing and
-displaying of data.
+`<fs-pedigree>`, `<fs-person-families>`, and `<fs-add-person>` are complex in 
+their processing and displaying of data.
