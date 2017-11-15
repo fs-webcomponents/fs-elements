@@ -31,6 +31,7 @@
     "fs-person-gender": "fs-webcomponents/fs-person-gender",
     "fs-add-person": "fs-webcomponents/fs-add-person",
     "fs-user-history": "fs-webcomponents/fs-user-history",
-    "fs-user-mixin": "fs-webcomponents/fs-user-mixin"
+    "fs-user-mixin": "fs-webcomponents/fs-user-mixin",
+    "fs-source-attachments": "fs-webcomponents/fs-source-attachments"
   }
 }
