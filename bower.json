@@ -32,6 +32,7 @@
     "fs-add-person": "fs-webcomponents/fs-add-person",
     "fs-user-history": "fs-webcomponents/fs-user-history",
     "fs-user-mixin": "fs-webcomponents/fs-user-mixin",
-    "fs-source-attachments": "fs-webcomponents/fs-source-attachments"
+    "fs-source-attachments": "fs-webcomponents/fs-source-attachments",
+    "fs-conclusion-mixin": "fs-webcomponents/fs-conclusion-mixin"
   }
 }
