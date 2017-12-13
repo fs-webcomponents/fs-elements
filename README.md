@@ -20,8 +20,8 @@ in the [fs-elements issue tracker](https://github.com/fs-webcomponents/fs-elemen
 ## Demos
 
 The demos don't work well on the webcomponents.org catalog because the redirect
-URI for OAuth is difficult to handle. Thus each element links to a version of 
-their demo hosted on GitHub pages.
+URI for OAuth is difficult to handle. We published our own version of docs
+and demos at https://fs-webcomponents.github.io/indie-catalog/.
 
 ## Usage
 
@@ -58,8 +58,9 @@ We recommend setting the `debounceDuplicates` property to true on `<fs-client>`.
 This allows multiple elements to request data from the same resource while only
 having one HTTP request sent to the API by the SDK.
 
+Most elements will use `<fs-client>` indirectly via `<fs-request>`.
 Review the code for one of the existing elements to see how you might write your
-own element that uses `<fs-client>` to get data from the FamilySearch API.
+own element that uses `<fs-request>` to get data from the FamilySearch API.
 `<fs-person-chip>` is a good example of a simple component that relies on 
 `<fs-person-mixin>` to do most of it's heavy lifting. `<fs-person-portrait>` is
 a little more complex but is used by most other components that display people.
